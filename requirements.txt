@@ -1,0 +1,5 @@
+opencv-python-headless
+deepface
+tensorflow
+numpy
+Pillow
