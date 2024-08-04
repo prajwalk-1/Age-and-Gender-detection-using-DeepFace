@@ -12,10 +12,10 @@ This project demonstrates how to use the DeepFace library along with OpenCV to d
 
 ## Requirements
 
-- Python 3.x
+- Python 3.10
 - OpenCV
 - DeepFace
-- TensorFlow (for DeepFace)
+- TensorFlow 
 - Haar Cascade XML file for face detection
 
 ## Installation
