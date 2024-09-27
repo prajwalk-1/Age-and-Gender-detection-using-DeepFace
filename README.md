@@ -2,7 +2,7 @@
 
 This project demonstrates how to use the DeepFace library along with OpenCV to detect faces from a live webcam feed, determine their gender and age range, and keep track of the counts of detected males and females.
 
-## Features:
+## Features
 
 - Real-time face detection using Haar Cascades.
 - Gender and age range prediction using the DeepFace library.
@@ -10,7 +10,7 @@ This project demonstrates how to use the DeepFace library along with OpenCV to d
 - Display of live video feed with annotated age and gender.
 - Console output of detected age ranges and gender counts.
 
-## Requirements:
+## Requirements
 
 - Python 3.10
 - OpenCV
@@ -18,7 +18,7 @@ This project demonstrates how to use the DeepFace library along with OpenCV to d
 - TensorFlow 
 - Haar Cascade XML file for face detection
 
-## Installation:
+## Installation
 
 1. **Clone the Repository:**
    ```bash
