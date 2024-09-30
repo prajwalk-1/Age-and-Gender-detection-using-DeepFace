@@ -13,7 +13,7 @@ if not cap.isOpened():
     print("Error: Could not open camera.")
     exit()
 
-haar_cascade_path = r'C:/Users/lSS/Downloads/Compressed/FairFace-master/haarcascade_frontalface_default.xml'
+haar_cascade_path = r'haarcascade_frontalface_default.xml'
 face_cascade = cv2.CascadeClassifier(haar_cascade_path)
 
 if face_cascade.empty():
