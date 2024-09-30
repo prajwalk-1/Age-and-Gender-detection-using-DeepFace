@@ -13,13 +13,9 @@ if not cap.isOpened():
     print("Error: Could not open camera.")
     exit()
 
-# Specify the path to the Haar cascade file
 haar_cascade_path = r'C:/Users/lSS/Downloads/Compressed/FairFace-master/haarcascade_frontalface_default.xml'
-
-# Load the Haar cascade
 face_cascade = cv2.CascadeClassifier(haar_cascade_path)
 
-# Check if the Haar cascade has been loaded successfully
 if face_cascade.empty():
     print(f"Error: Failed to load Haar cascade from path: {haar_cascade_path}")
     exit()
@@ -28,7 +24,7 @@ if face_cascade.empty():
 age_ranges = [
     (0, 5), (6, 10), (11, 15), (16, 20), 
     (21, 25), (26, 30), (31, 35), (36, 40), 
-    (41, 50), (51, 60), (61, 120)  # 120 as an arbitrary upper limit for the last range
+    (41, 50), (51, 60), (61, 120) 
 ]
 
 def get_age_range(age):
