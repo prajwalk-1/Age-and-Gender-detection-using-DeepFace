@@ -5,10 +5,8 @@ import os
 # Suppress TensorFlow warnings
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
-# Open a connection to the camera
 cap = cv2.VideoCapture(0)
 
-# Check if the camera opened successfully
 if not cap.isOpened():
     print("Error: Could not open camera.")
     exit()
